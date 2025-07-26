@@ -1,0 +1,9 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "py_ssr"
+version = "0.1.0"
+authors = [{ name = "gui.beira", email = "contact@guibeira.dev" }]
+description = "Python Wrapper for ssr_rs"
